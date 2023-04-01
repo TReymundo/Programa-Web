@@ -1,0 +1,69 @@
+*/*{
+    border:1px solid red;
+}
+*/
+
+body {
+  background-color: rgb(31, 30, 30);
+}
+
+body {
+  background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  font-weight: normal;
+  letter-spacing: 15px;
+  font-size: 70px;
+
+  background-color: rgb(15, 15, 15);
+  color:rgb(255, 255, 255);
+  outline-style: outset;
+  text-align: center;
+  outline-style: double;
+}
+
+h2 {
+  font-family: "Courier New", monospace;
+  font-weight: normal;
+  margin: 5px;
+  font-size: 25px;
+  background-color: rgb(15, 15, 15);
+  color:rgb(255, 255, 255);
+  outline-style: double;
+  text-align: center;
+  position: sticky;
+
+}
+
+p {
+  background-color: none;
+  color:rgb(255, 255, 255);
+  float: right;
+  text-align: center;
+}
+
+img {
+  margin-left: 40px;
+  width: 55%;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: white;
+
+}
+
+#title{color:rgb(247, 246, 246);font-size: 100px;}
+
+  
+  li{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  
+
+ 
