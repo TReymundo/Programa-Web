@@ -1,13 +1,9 @@
 */*{
     border:1px solid red;
-}
-*/
+}*/
 
 body {
   background-color: rgb(31, 30, 30);
-}
-
-body {
   background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
 }
 
@@ -38,22 +34,20 @@ h2 {
 }
 
 p {
-  background-color: none;
   color:rgb(255, 255, 255);
   float: right;
   text-align: center;
+  margin-top: 180px;
 }
 
 img {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
   width: 55%;
   outline-style: solid;
   outline-width: 2px;
   outline-color: white;
-
 }
-
-#title{color:rgb(247, 246, 246);font-size: 100px;}
 
   
   li{
