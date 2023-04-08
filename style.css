@@ -2,6 +2,43 @@
     border:1px solid red;
 }*/
 
+header {
+  background-color: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+  outline-style: solid;
+  height: 50px;
+  position: sticky;
+}
+
+nav {
+  float: right;
+  position: relative; 
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative; 
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  position: relative; 
+  z-index: 1; 
+}
+
 body {
   background-color: rgb(31, 30, 30);
   background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
@@ -12,7 +49,6 @@ h1 {
   font-weight: normal;
   letter-spacing: 15px;
   font-size: 70px;
-
   background-color: rgb(15, 15, 15);
   color:rgb(255, 255, 255);
   outline-style: outset;
@@ -29,15 +65,16 @@ h2 {
   color:rgb(255, 255, 255);
   outline-style: double;
   text-align: center;
-  position: sticky;
-
 }
 
 p {
   color:rgb(255, 255, 255);
   float: right;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 70px;
+  margin-left: 25px;
+  line-height: 35px;
+  width: 760px;
 }
 
 img {
@@ -49,15 +86,20 @@ img {
   outline-color: white;
 }
 
-  
-  li{
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: right;
-  }
-  
+.BottomRight {
+  display: inline;
+  color: white;
+  background-color: rgb(15, 15, 15);
+  float: right;
+  outline-style:solid;
+  outline-width:2px;
+  outline-color:white;
+}
 
- 
+.BottomRight li {
+  margin-right: 30px;
+}
+
+li:hover {
+  background-color: rgb(27, 27, 27); 
+}
