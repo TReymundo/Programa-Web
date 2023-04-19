@@ -58,6 +58,9 @@ nav a:hover {
 
 body {
   background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /*MAIN*/
@@ -77,27 +80,28 @@ body {
 }
 
 .word1 h2{
-  top: 0.2em;
-  left: 2.1em;
+  margin-top: 25vh;
+  margin-left: 28vw;
 }
 
 .word2 h2 {
-  top: 0.2em;
-  left: 6.58em;
+  margin-top: 25vh;
+  margin-left: 80.5vw;
 }
 
 .image-overlay {
   position: relative;
-  left: -12em;
-  top: 20px;
+  margin-left: -10vw;
+  margin-top: 12vh;
 }
 
 .spotifylogo img {
-  display: block;
-  margin: auto;
-  width: 55%;
-  height: 55%;
-  margin-top: 3%;
+  position: relative;
+  width: 58vw;
+  height: 54vh;
+  margin-top: 0.5vh;
+  margin-left: 19.85vw;
+  z-index: -1;
 }
 
 /* FIRST BLOCK */
@@ -108,40 +112,41 @@ body {
 
 .color-block1 {
   background-color: #33cc66;
-  width:  100%;
+  width:  100vw;
   height: 53.125em;
   margin-top: 7.5em;
-  border-radius: 1.25em;
+  border-radius: 1.25vh;
+
 }
 
 .color-block2 {
   position: absolute;
   background-color: rgb(12, 12, 12);
-  width:  99.8%;
-  height: 51.875em;
-  top: 0.59375em;
-  right: 0.15625em;
-  border-radius: 1.25px;
+  width:  98vw;
+  height: 82.5vh;
+  top: 0.8vh;
+  right: 1vw;
+  border-radius: 1.25vw;
 }
 
 .imageblock {
   position: absolute;
-  bottom: 1.5em;
-  right:  0.3em;
+  bottom: 3vh;
+  right:  4vw;
   z-index: 0;
 }
 
 .blocktext h3 {
   position: absolute;
   color: #fdfdfd;
-  left:0em;
-  top: 4em;
+  margin-left: 9vw;;
+  top: 16vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   letter-spacing: 0.08em;
   text-align: center;
-  font-size: 3.2em;
+  font-size: 60px;
   font-weight: 100;
-  max-width: 9em;
+  max-width: 550px;
   line-height: 1.8;
 
 }
@@ -157,10 +162,36 @@ body {
   outline-color:white;
 }
 
-.BottomRight li {
-  margin-right: 30px;
+.blocks-section2 {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 125vh;
 }
 
-li:hover {
-  background-color: rgb(66, 66, 65); 
+
+/* FOOTER */
+
+.footer {
+  position:relative;
+  width: 100vw;
+  height: 60vh;
+  background-color: rgb(15, 15, 15);
+  bottom: 0;
+  border-top: 1px solid;
+  border-color: #ffffff;
+  
+
+}
+
+.footer p {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 14vh;
+  width: 58vw;
+  margin-left: 20vw;
+  font-size: larger;
+  letter-spacing: 0.31vh;
+  line-height: 3vh;
+  
 }
