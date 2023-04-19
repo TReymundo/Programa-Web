@@ -67,7 +67,7 @@ body {
 
 .headline h2{
   font-family: serif;
-  letter-spacing: 8px;
+  letter-spacing: 0.5vw;
   text-align: center;
   font-size: 170px;
 
@@ -97,10 +97,10 @@ body {
 
 .spotifylogo img {
   position: relative;
-  width: 58vw;
-  height: 54vh;
+  width: 54vw;
+  height: 50vh;
   margin-top: 0.5vh;
-  margin-left: 19.85vw;
+  margin-left: 22vw;
   z-index: -1;
 }
 
