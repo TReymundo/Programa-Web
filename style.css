@@ -67,7 +67,7 @@ body {
 
 .headline h2{
   font-family: serif;
-  letter-spacing: 0.7vw;
+  letter-spacing: 8px;
   text-align: center;
   font-size: 190px;
 
@@ -180,3 +180,7 @@ body {
   letter-spacing: 0.31vh;
   line-height: 3vh;
 }
+
+
+
+
