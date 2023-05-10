@@ -151,8 +151,8 @@ body {
   margin-top: 10.5vh;
   margin-bottom: 20vh;
   background-color: transparent;
-  z-index: -100;
-  opacity: 0.03;
+  z-index: -300;
+  opacity: 0.1;
 }
 
 
@@ -532,7 +532,7 @@ body {
 
 
 
-@media only screen and (max-width: 1500px) and (min-width: 1201px) {
+@media only screen and (max-width: 1580px) and (min-width: 1201px) {
 
 
 .color_blocks__1 {
