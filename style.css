@@ -2,6 +2,11 @@
     border:1px solid red;
 }*/
 
+
+
+/* NAV BAR */
+
+
 header {
   position: sticky;
   height: 0px;
@@ -9,12 +14,13 @@ header {
   z-index: 100;
 }
 
+
 .nav {
   background-color: #181818;
   border: solid white;
   border-width: 0px 0px 1px 0px;
-  
 }
+
 
 .nav__ul {
   position: relative;
@@ -24,22 +30,25 @@ header {
   top: 0
 }
 
+
 .nav__li {
   display: inline-block;
   padding: 20px;
 }
 
+
 .nav__li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 1vh 1vw;
-
 }
+
 
 .nav__li a:hover {
   background-color: #33cc66; 
   transition: background-color 0.3s ease-out;
 }
+
 
 .image_header {
   position: absolute;
@@ -54,27 +63,39 @@ body {
   background-color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
-  
 }
 
-/*MAIN*/
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
+
+/*MAIN TITLE*/
+
 
 .inital_title_box {
   position: relative;
   display: block;
   height: 70vh;
   margin-top: 10vh;
-  margin-bottom: 19.5vh;
+  margin-bottom: 20vh;
   max-width: 100vw;
 }
 
- 
+
 .inital_title_box__wordsimage {
   position: absolute;
-  left: 25vw;
-  top: 4vh;
-
+  left: 7vw;
+  top: 0vh;
 }
+
 
 .inital_title_box__words {
   font-family: serif;
@@ -84,32 +105,108 @@ body {
   font-weight: 100;
 }
 
+
 .inital_title_box__words_1 {
   position: relative;
   display: inline-block;
-  top: 25vh;
-  left: -2.5vw;
- 
+  top: 32vh;
+  left: -1.3vw;
 }
+
 
 .inital_title_box__words_2 {
   position: relative;
   display: inline-block;
-  top: 25vh;
-  left: 20.2vw;
-
+  top: 32vh;
+  left: 25vw;
 }
+
 
 .inital_title_box__image {
   position: relative;
-  z-index: -1;
-  transform: scale(1.3)
-  
+  z-index: -200;
 }
+
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
+
+/* BACKGROUND */
+
+
+.inital_title_box_BG {
+  position: fixed;
+  top: 0;
+  left: .1vw;
+  width: 100%;
+  height: 70vh;
+  margin-top: 10.5vh;
+  margin-bottom: 20vh;
+  background-color: transparent;
+  z-index: -300;
+  opacity: 0.1;
+}
+
+
+.inital_title_box__wordsimage_BG {
+  position: absolute;
+  left: 7vw;
+  top: 0vh;
+}
+
+
+.inital_title_box__words_BG {
+  font-family: serif;
+  color: #ffffff;
+  font-size: 115px;
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+
+.inital_title_box__words_1_BG {
+  position: relative;
+  display: inline-block;
+  top: 32vh;
+  left: -1.3vw;
+}
+
+
+.inital_title_box__words_2_BG {
+  position: relative;
+  display: inline-block;
+  top: 32vh;
+  left: 25vw;
+}
+
+
+.inital_title_box__image_BG {
+  position: relative;
+  z-index: -1;
+}
+
+
+/*-----------------*/
+
+
+
+
+
+
+
 
 
 
 /* FIRST BLOCK */
+
 
 .color_blocks__1 {
   position: relative;
@@ -126,40 +223,71 @@ body {
   transition: background 0.5s;
 }
 
+
 .color_blocks__1:hover {
   background: rgb(17, 17, 17);
-
 }
+
 
 .flex_items {
   display: flex;
-
 }
+
 
 .color_blocks__1_image {
   position: absolute;
   right: 5vw;
-  top: 10vh;
- 
+  top: 1.6vh;
 }
+
 
 .color_blocks__1_text {
   position: absolute;
   color: #fdfdfd;
   margin-left: 9vw;;
   font-family: 'Roboto', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   max-width: 30vw;
   line-height: 1.8;
   bottom: 20vh;
-  
 }
+
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
 
 /*SECOND BLOCK*/
 
 
 
+
+
+
+
+
+
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
+
 
 .footer {
   position:relative;
@@ -170,6 +298,7 @@ body {
   border-top: 1px solid;
   border-color: #ffffff;
 }
+
 
 .footer p {
   position: relative;
@@ -183,7 +312,22 @@ body {
   line-height: 3vh;
 }
 
+
+/*-----------------*/
+
+
+
+
+
+
+
+
+
 /*RESPONSIVE*/
+
+
+
+/*NAV RESPONSIVE*/
 
 .nav__responsive_ul {
   display: none;
@@ -193,11 +337,17 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 1500px) {
+
+/*-----------------*/
+
+
+
+@media only screen and (max-width: 1200px) {
 
   .nav__ul {
     display: none;
   }
+
 
   .nav {
     height: 50px;
@@ -205,6 +355,7 @@ body {
     background-color: #181818;
   }
   
+
   .nav__responsive_ul { 
     display: block;
     position: relative;
@@ -212,26 +363,31 @@ body {
     font-size: 15px;
     text-align: right;
     top: 2vh
-    
   }
+
 
   .nav_responsive_li {
     display: inline-block;
   }
+
+
   .nav_responsive_li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 1vh 1vw;
   }
 
+
   .nav_responsive_li a:hover {
     background-color: #33cc66; 
     transition: background-color 0.3s ease-out;
   }
   
+
   .image_header {
     display: none;
   }
+
 
   .image_header__responsive {
     display: inline-block;
@@ -240,22 +396,29 @@ body {
     left: 0;
     height: 50px;
     width: 50px;
-
   }
+
+
+/*-----------------*/
+
 
   .color_blocks__1 {
     height: auto;
     margin-bottom: 55vh;
+    margin-top: 15vh;
   }
+
 
   .color_blocks__1_image {
     position: static;
     width: 100%;
   }
 
+
   .color_blocks__1_image {
     margin-top: 3vh;
   }
+
 
   .color_blocks__1_text {
     position: static;
@@ -266,23 +429,30 @@ body {
     text-align: center;
   }
   
+
+/*-----------------*/
+
+
   .inital_title_box {
     height: auto;
-    margin-top: 5vh;
+    margin-top: 12vh;
     margin-bottom: 10vh;
   }
   
+
   .inital_title_box__wordsimage {
     position: static;
     text-align: center;
     margin-bottom: 3vh;
   }
   
+
   .inital_title_box__words {
     font-size: 40px;
     letter-spacing: 4px;
   }
   
+
   .inital_title_box__words_1,
   .inital_title_box__words_2 {
     position: static;
@@ -292,14 +462,58 @@ body {
     margin: 0 auto;
   }
 
+
   .inital_title_box__image {
     transform: scale(1.0)
   }
   
+
+/*-----------------*/
+
+
+.inital_title_box_BG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 12vh;
+  margin-bottom: 10vh;
+  background-color: transparent;
+}
+
+
+.inital_title_box__wordsimage_BG {
+  position: static;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+
+.inital_title_box__words_BG {
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+
+.inital_title_box__words_1_BG,
+.inital_title_box__words_2_BG {
+  position: static;
+  display: block;
+  top: auto;
+  left: auto;
+  margin: 0 auto;
+}
+
+
+/*-----------------*/
+
+
   .footer {
     height: auto;
     padding: 5vh 0;
   }
+
 
   .footer p {
     width: 90%;
@@ -309,5 +523,155 @@ body {
     line-height: 2em;
   }
 
+
+/*-----------------*/
+
 }
 
+
+
+
+
+@media only screen and (max-width: 1580px) and (min-width: 1201px) {
+
+
+.color_blocks__1 {
+  height: auto;
+  margin-bottom: 55vh;
+  margin-top: 15vh;
+}
+
+
+.color_blocks__1_image {
+  position: static;
+  width: 100%;
+}
+
+
+.color_blocks__1_image {
+  margin-top: 0.5vh;
+}
+
+
+.color_blocks__1_text {
+  position: static;
+  margin-left: 0;
+  margin-top: 7.5vh;
+  font-size: 4vw;
+  max-width: 100%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/*-----------------*/
+
+
+.inital_title_box {
+  position: relative;
+  display: block;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  max-width: 100vw;
+  z-index: -100;
+}
+
+ 
+.inital_title_box__wordsimage {
+  position: absolute;
+  left: -8%;
+  top: 0vh;
+  transform: scale(0.8);
+}
+
+
+.inital_title_box__words {
+  font-family: serif;
+  color: #ffffff;
+  font-size: 8vw;
+  letter-spacing: 1vw;
+  font-weight: 100;
+}
+
+
+.inital_title_box__words_1 {
+  position: relative;
+  display: inline-block;
+  top: 30vh;
+  left: 0%;
+}
+
+
+.inital_title_box__words_2 {
+  position: relative;
+  display: inline-block;
+  top: 30vh;
+  left: 50%;
+}
+
+
+.inital_title_box__image {
+  position: relative;
+  z-index: -1;
+  right:  0;
+  max-width: 100%;
+  left: 4%;
+}
+
+
+/*-----------------*/
+
+
+.inital_title_box_BG {
+  position: fixed;
+  display: block;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  max-width: 100vw;
+}
+
+
+.inital_title_box__wordsimage_BG {
+  position: absolute;
+  left: -8%;
+  top: 0vh;
+  transform: scale(0.8);
+}
+
+
+.inital_title_box__words_BG {
+  font-family: serif;
+  color: #ffffff;
+  font-size: 8vw;
+  letter-spacing: 1vw;
+  font-weight: 100;
+}
+
+
+.inital_title_box__words_1_BG {
+  position: relative;
+  display: inline-block;
+  top: 30vh;
+  left: 0%;
+}
+
+
+.inital_title_box__words_2_BG {
+  position: relative;
+  display: inline-block;
+  top: 30vh;
+  left: 50%;
+}
+
+
+.inital_title_box__image_BG {
+  position: relative;
+  z-index: -1;
+  right: 0;
+  max-width: 100%;
+  left: 4%;
+}
+
+}
