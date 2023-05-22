@@ -1,4 +1,4 @@
-/*{
+*{
     border:1px solid red;
 }
 
@@ -753,16 +753,18 @@ body {
 
 .color_blocks__1_image {
   position: static;
-  width: 100%;
+  max-width: 100%;
   margin-top: 4.5vh;
   margin-left: 20vw;
+  
 }
 
 .color_blocks__1_image2 {
   position: absolute;
-  width: 100%;
-  margin-right: -25vw;
-  margin-top: 2.9vh; 
+  max-width: 100%;
+  left: 20.1vw;
+  margin-top: 3.2vh; 
+ 
 }
 
 
