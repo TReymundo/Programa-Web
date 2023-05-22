@@ -153,7 +153,7 @@ body {
   margin-bottom: 20vh;
   background-color: transparent;
   z-index: -300;
-  opacity: 0.025;
+  opacity: 0.03;
 }
 
 
@@ -291,7 +291,7 @@ body {
   align-items: center;
   height: 40vh;
   width: 99vw;
-  background-color: #050505;
+  background-color: #0f0f0f;
   margin-bottom: 3vh;
   border-top: 7px  solid #33cc66 ;
   border-bottom: 3px  solid #33cc66 ;
