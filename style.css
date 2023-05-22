@@ -909,27 +909,27 @@ body {
 
 .playlist_flexbox img:hover {
   background-color: #33cc66;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .playlist_flexbox__item1 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item2 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item3 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item4 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item5 {
-  height: 68%;
+  height: 85%;
 }
 
 /*-----------------*/
@@ -946,21 +946,21 @@ body {
 
 .playlist_flexbox__2 img:hover {
   background-color: #33cc66;
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .playlist_flexbox__item1__2 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item2__2 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item3__2 {
-  height: 68%;
+  height: 85%;
 }
 
 .playlist_flexbox__item4__2 {
-  height: 68%;
+  height: 85%;
 }
