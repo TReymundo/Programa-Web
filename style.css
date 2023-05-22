@@ -679,6 +679,7 @@ body {
 .playlist_flexbox {
   height: 30vh;
   width: 99.11vw;
+  border-bottom: 7px  solid #33cc66 ;
 }
 .playlist_flexbox img {
   width: 100%;
@@ -714,6 +715,7 @@ body {
 .playlist_flexbox__2 {
   height: 30vh;
   width: 99.11vw;
+  border-top: 7px  solid #33cc66 ;
 }
 
 .playlist_flexbox__2 img {
