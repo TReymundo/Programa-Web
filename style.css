@@ -370,6 +370,8 @@ body {
   margin-bottom: 30vh;
   border-top: 3px  solid #33cc66 ;
   border-bottom: 7px  solid #33cc66 ;
+  border-left: 0px;
+  border-right: 0px;
   transition: border-width 0.3s ease,  border-color 1.2s ease;
 }
 
