@@ -754,16 +754,16 @@ body {
 .color_blocks__1_image {
   position: static;
   width: 100%;
-  margin-top: 0.5vh;
+  margin-top: 4.5vh;
+  margin-left: 20vw;
 }
 
 .color_blocks__1_image2 {
   position: absolute;
   width: 100%;
-  margin-right: -5.1vw;
-  margin-top: -0.9vh; 
+  margin-right: -25vw;
+  margin-top: 2.9vh; 
 }
-
 
 
 .color_blocks__1_text {
@@ -793,7 +793,7 @@ body {
  
 .inital_title_box__wordsimage {
   position: absolute;
-  left: -8%;
+  left: -4%;
   top: 0vh;
   transform: scale(0.8);
 }
@@ -830,6 +830,7 @@ body {
   right:  0;
   max-width: 100%;
   left: 4%;
+  margin-top: -13vh;
 }
 
 
