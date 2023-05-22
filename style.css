@@ -678,8 +678,11 @@ body {
 }
 
 .playlist_flexbox {
-  height: 20vh;
+  height: 40vh;
   width: 99.11vw;
+}
+.playlist_flexbox img {
+  width: 100%;
 }
 
 .playlist_flexbox img:hover {
@@ -710,8 +713,12 @@ body {
 /*-----------------*/
 
 .playlist_flexbox__2 {
-  height: 20vh;
+  height: 40vh;
   width: 99.11vw;
+}
+
+.playlist_flexbox__2 img {
+  width: 100%;
 }
 
 .playlist_flexbox__2 img:hover {
