@@ -677,7 +677,7 @@ body {
 }
 
 .playlist_flexbox {
-  height: 40vh;
+  height: 30vh;
   width: 99.11vw;
 }
 .playlist_flexbox img {
@@ -712,7 +712,7 @@ body {
 /*-----------------*/
 
 .playlist_flexbox__2 {
-  height: 40vh;
+  height: 30vh;
   width: 99.11vw;
 }
 
