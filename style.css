@@ -1,4 +1,4 @@
-/*{
+*{
     border:1px solid red;
 }
 
@@ -244,7 +244,6 @@ body {
   top: 1.6vh;
   opacity: 0;
   transition: opacity 0.6s ease
-  
 }
 
 
@@ -256,8 +255,6 @@ body {
 .color_blocks__1:hover .color_blocks__1_image2 {
   opacity: 1;
   z-index: 1;
-
-  
 }
 
 
@@ -555,11 +552,16 @@ body {
   .color_blocks__1_image {
     position: static;
     width: 100%;
+    margin-top: 3vh;
   }
 
-
-  .color_blocks__1_image {
-    margin-top: 3vh;
+  
+  .color_blocks__1_image2 {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 3vh
+  
   }
 
 
@@ -688,12 +690,16 @@ body {
 .color_blocks__1_image {
   position: static;
   width: 100%;
-}
-
-
-.color_blocks__1_image {
   margin-top: 0.5vh;
 }
+
+.color_blocks__1_image2 {
+  position: absolute;
+  width: 100%;
+  margin-right: -5.1vw;
+  margin-top: -0.9vh; 
+}
+
 
 
 .color_blocks__1_text {
