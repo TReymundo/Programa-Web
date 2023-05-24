@@ -1,10 +1,12 @@
-let mola;
-
-mola = 22;
-
-const hola=23 
 
 
-varaiable="hola"
 
-alert(varaiable)
+const hola= "hola";
+
+
+function hola1(x1) {
+    let hola 
+
+}
+
+console.log(hola)
