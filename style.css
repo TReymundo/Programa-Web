@@ -543,6 +543,7 @@ html {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-top: -5vh;
+  margin-bottom: 30vh;
   font-size: 22px
 }
 
@@ -576,6 +577,9 @@ html {
   text-align: left;
 }
 
+.flex-container p:hover {
+  color: #33cc66;
+}
 
 .left-column {
   flex: 1;
@@ -587,6 +591,14 @@ html {
   margin-left: 3vw;
   margin-top: 5vh;
 }
+
+
+/* CONTACT */
+
+.contact__class {
+  margin-bottom: 100vh;
+}
+
 
 
 /*RESPONSIVE QUERYS*/
@@ -904,10 +916,46 @@ html {
   font-size: 10px;
 }
 
-}
 
 
 /*-----------------*/
+
+.about_us_soon {
+  margin-top: 28vh;
+}
+
+/*-----------------*/
+
+.flex-container {
+  font-size: 15px;
+  }
+
+
+.flex-container h2 {
+  font-size: 40px;
+  border-bottom: 1px solid white;
+}
+
+
+.flex-container p{
+
+  line-height: 23px;
+
+}
+
+
+.left-column {
+  flex: 1;
+}      
+
+
+.right-column {
+  flex: 1;
+  margin-left: 3vw;
+  margin-top: 5vh;
+}
+
+}
 
 
 /* LAPTOP */
@@ -1156,7 +1204,6 @@ html {
 .footer__social {
   margin-right: 16vw;
 }
-
 
 
 
