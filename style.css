@@ -1,4 +1,4 @@
-*{
+/*{
     border:1px solid red;
 }
 
@@ -53,10 +53,9 @@ header {
 .image_header {
   position: absolute;
   top: 0;
-  left: 0;
-  height: 80px;
-  width: 80px;
-  margin-top: -0.2vh;
+  height: 160px;
+  width: 160px;
+  margin-left: 0.2vw;
 }
 
 
@@ -93,17 +92,17 @@ body {
 
 .inital_title_box__wordsimage {
   position: absolute;
-  left: 7vw;
+  left: 11vw;
   top: 0vh;
 }
 
 
 .inital_title_box__words {
-  font-family: serif;
   color: #ffffff;
   font-size: 115px;
   letter-spacing: 8px;
   font-weight: 100;
+  text-shadow: 1px 1px 100px #ffffff42;;
 }
 
 
@@ -153,13 +152,14 @@ body {
   margin-bottom: 20vh;
   background-color: transparent;
   z-index: -300;
-  opacity: 0.03;
+  opacity: 0.05;
+  filter: blur(10px)
 }
 
 
 .inital_title_box__wordsimage_BG {
   position: absolute;
-  left: 7vw;
+  left: 11vw;
   top: 0vh;
 }
 
@@ -214,7 +214,7 @@ body {
   background: #000000;
   max-width:  100vw;
   height: 85vh;
-  margin-bottom: 40vh;
+  margin-bottom: 18vh;
   border-radius: 3vh;
   box-sizing: border-box;
   border-top: 20px solid #33cc66;
@@ -293,8 +293,8 @@ body {
   max-width: 100vw;
   background-color: #0f0f0f;
   margin-bottom: 7vh;
-  border-top: 20px  solid #33cc66 ;
-  border-bottom: 10px  solid #33cc66 ;
+  border-top: 15px  solid #33cc66 ;
+  border-bottom: 15px  solid #33cc66 ;
   border-left: 0px;
   border-right: 0px;
   transition: border-width 0.3s ease,  border-color 1.2s ease;
@@ -306,52 +306,55 @@ body {
 }
 
 .playlist_flexbox img {
-  transition: background-color 0.5s ease, transform 0.5s ease;
+  transition: background-color 1s ease, transform 1s ease, filter 2s ease;
   height: 100%;
   width: 99%;
   object-fit: scale-down;
   border-radius: 0.5vw;
+  filter: blur(15px);
 }
 
 
 .playlist_flexbox img:hover {
   background-color: #33cc66;
   transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform 1s ease, filter 2s ease;
 }
 
 .playlist_flexbox__item1 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;
+  height: 31vh;
+  width: 17vw;
   border-radius: 0.5vw;
 }
 
 
 .playlist_flexbox__item2 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;;
+  height: 31vh;
+  width: 17vw;;
   border-radius: 0.5vw;
 }
 
 .playlist_flexbox__item3 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;;
+  height: 31vh;
+  width: 17vw;;
   border-radius: 0.5vw;
 }
 
 .playlist_flexbox__item4 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;
+  height: 31vh;
+  width: 17vw;
   border-radius: 0.5vw;
 }
 
 .playlist_flexbox__item5 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;
+  height: 31vh;
+  width: 17vw;
   border-radius: 0.5vw;
 }
 
@@ -370,8 +373,8 @@ body {
   max-width: 100vw;
   background-color: #050505;
   margin-bottom: 30vh;
-  border-top: 10px  solid #33cc66 ;
-  border-bottom: 20px  solid #33cc66 ;
+  border-top: 15px  solid #33cc66 ;
+  border-bottom: 15px  solid #33cc66 ;
   border-left: 0px;
   border-right: 0px;
   transition: border-width 0.3s ease,  border-color 1.2s ease;
@@ -383,45 +386,49 @@ body {
 }
 
 .playlist_flexbox__2 img {
-  transition: background-color 0.5s ease, transform 0.5s ease;
+  transition: background-color 1s ease, transform 1s ease, filter 2s ease;
   height: 100%;
   width: 99%;
   object-fit: scale-down;
   border-radius: 0.5vw;
+  filter: blur(15px);
 }
 
 
 .playlist_flexbox__2 img:hover {
   background-color: #33cc66;
   transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform 1s ease, filter 2s ease;
 }
+
 
 .playlist_flexbox__item1__2 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;
+  height: 31vh;
+  width: 17vw;
   border-radius: 0.5vw;
 }
 
 
 .playlist_flexbox__item2__2 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;;
+  height: 31vh;
+  width: 17vw;;
   border-radius: 0.5vw;
 }
 
 .playlist_flexbox__item3__2 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;;
+  height: 31vh;
+  width: 17vw;;
   border-radius: 0.5vw;
 }
 
 .playlist_flexbox__item4__2 {
   background-color: rgb(253, 253, 253);
-  height: 30.7vh;
-  width: 16.7vw;
+  height: 31vh;
+  width: 17vw;
   border-radius: 0.5vw;
 }
 
@@ -432,7 +439,7 @@ body {
 .footer {
   position:relative;
   max-width: 100vw;
-  height: 60vh;
+  height: 55vh;
   background-color: rgb(15, 15, 15);
   bottom: 0;
   border-top: 1px solid;
@@ -479,6 +486,73 @@ body {
 
 
 /*-----------------*/
+
+
+
+
+
+
+
+
+
+/* ABOUT US PAGE */
+
+.about_us_soon {
+  color: #ffffff;
+  margin-top: 37vh;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 100;
+  text-align: center;
+  
+}
+
+
+.about_us_subtext{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -5vh;
+  font-size: 22px
+}
+
+/*************/
+
+
+.flex-container {
+  display: flex;
+  color: beige;
+  margin-top: 12vh;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  }
+
+.flex-container h2 {
+  font-size: 60px;
+  border-bottom: 1px solid white;
+}
+
+.flex-container p{
+  margin-left: 2.5vw;
+  line-height: 33px;
+  margin-top: 1.5vh;
+  text-align: left;
+}
+
+.left-column {
+  flex: 1;
+}
+        
+.right-column {
+  flex: 1;
+  margin-left: 3vw;
+  margin-top: 5vh;
+}
+
+
 
 
 
@@ -532,10 +606,10 @@ body {
   .image_header__responsive {
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 50px;
+    margin-top: 0.7vh;
+    margin-left: 1vw;
+    height: 85px;
+    width: 85px;
   }
 
 
@@ -607,47 +681,47 @@ body {
   }
 
 
-  .inital_title_box__image {
-    transform: scale(1.0)
-  }
+
+  
+  
   
 
 /*-----------------*/
 
 
-.inital_title_box_BG {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  margin-top: 12vh;
-  margin-bottom: 10vh;
-  background-color: transparent;
-}
+  .inital_title_box_BG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 22vh;
+    margin-bottom: 10vh;
+    background-color: transparent;
+  }
 
 
-.inital_title_box__wordsimage_BG {
-  position: static;
-  text-align: center;
-  margin-bottom: 3vh;
-}
+  .inital_title_box__wordsimage_BG {
+    position: static;
+    text-align: center;
+    margin-bottom: 3vh;
+  }
 
 
-.inital_title_box__words_BG {
-  font-size: 40px;
-  letter-spacing: 4px;
-}
+  .inital_title_box__words_BG {
+    font-size: 40px;
+    letter-spacing: 4px;
+  }
 
 
-.inital_title_box__words_1_BG,
-.inital_title_box__words_2_BG {
-  position: static;
-  display: block;
-  top: auto;
-  left: auto;
-  margin: 0 auto;
-}
+  .inital_title_box__words_1_BG,
+  .inital_title_box__words_2_BG {
+    position: static;
+    display: block;
+    top: auto;
+    left: auto;
+    margin: 0 auto;
+  }
 
 
 /*-----------------*/
@@ -670,76 +744,103 @@ body {
 
 /*-----------------*/
 
-}
 
-.playlist_flexbox {
-  height: 30vh;
-}
-.playlist_flexbox img {
-  width: 100%;
-}
 
-.playlist_flexbox img:hover {
-  background-color: #33cc66;
-  transform: scale(1.3);
-}
+  .playlist_flexbox {
+    height: 30vh;
+  }
+  .playlist_flexbox img {
+    width: 100%;
+  }
 
-.playlist_flexbox__item1 {
-  height: 68%;
-}
+  .playlist_flexbox img:hover {
+    background-color: #33cc66;
+    transform: scale(1.3);
+  }
 
-.playlist_flexbox__item2 {
-  height: 68%;
-}
+  .playlist_flexbox__item1 {
+    height: 68%;
+  }
 
-.playlist_flexbox__item3 {
-  height: 68%;
-}
+  .playlist_flexbox__item2 {
+    height: 68%;
+  }
 
-.playlist_flexbox__item4 {
-  height: 68%;
-}
+  .playlist_flexbox__item3 {
+    height: 68%;
+  }
 
-.playlist_flexbox__item5 {
-  height: 68%;
-}
+  .playlist_flexbox__item4 {
+    height: 68%;
+  }
+
+  .playlist_flexbox__item5 {
+    height: 68%;
+  }
 
 /*-----------------*/
 
-.playlist_flexbox__2 {
-  height: 30vh;
+  .playlist_flexbox__2 {
+    height: 30vh;
+  }
+
+  .playlist_flexbox__2 img {
+    width: 100%;
+  }
+
+  .playlist_flexbox__2 img:hover {
+    background-color: #33cc66;
+    transform: scale(1.4);
+  }
+
+  .playlist_flexbox__item1__2 {
+    height: 68%;
+  }
+
+  .playlist_flexbox__item2__2 {
+    height: 68%;
+  }
+
+  .playlist_flexbox__item3__2 {
+    height: 68%;
+  }
+
+  .playlist_flexbox__item4__2 {
+    height: 68%;
+  }
+
+/****************/
+
+
+.about_us_soon {
+  font-size: 35px;
+  margin-top: 18vh
+
 }
 
-.playlist_flexbox__2 img {
-  width: 100%;
+.about_us_subtext{
+  font-size: 10px;
 }
 
-.playlist_flexbox__2 img:hover {
-  background-color: #33cc66;
-  transform: scale(1.4);
 }
 
-.playlist_flexbox__item1__2 {
-  height: 68%;
-}
+/*****************/
 
-.playlist_flexbox__item2__2 {
-  height: 68%;
-}
 
-.playlist_flexbox__item3__2 {
-  height: 68%;
-}
 
-.playlist_flexbox__item4__2 {
-  height: 68%;
-}
+
+
+
 
 
 
 
 
 @media only screen and (max-width: 1580px) and (min-width: 1201px) {
+
+.image_header{
+  margin-left: 1vh;
+}
 
 
 .color_blocks__1 {
@@ -762,7 +863,6 @@ body {
   max-width: 100%;
   left: 20.1vw;
   margin-top: 3.2vh; 
- 
 }
 
 
@@ -790,7 +890,7 @@ body {
   z-index: -100;
 }
 
- 
+
 .inital_title_box__wordsimage {
   position: absolute;
   left: -4%;
@@ -830,7 +930,7 @@ body {
   right:  0;
   max-width: 100%;
   left: 4%;
-  margin-top: -13vh;
+  margin-top: -11vh;
 }
 
 
@@ -841,16 +941,17 @@ body {
   position: fixed;
   display: block;
   height: 70vh;
-  margin-top: 10vh;
+  margin-top: 9vh;
   margin-bottom: 20vh;
   max-width: 100vw;
+  margin-left: 4vw;
 }
 
 
 .inital_title_box__wordsimage_BG {
   position: absolute;
   left: -8%;
-  top: 0vh;
+  top: -8vh;
   transform: scale(0.8);
 }
 
@@ -867,7 +968,7 @@ body {
 .inital_title_box__words_1_BG {
   position: relative;
   display: inline-block;
-  top: 30vh;
+  top: 40vh;
   left: 0%;
 }
 
@@ -875,7 +976,7 @@ body {
 .inital_title_box__words_2_BG {
   position: relative;
   display: inline-block;
-  top: 30vh;
+  top: 40vh;
   left: 50%;
 }
 
@@ -888,7 +989,7 @@ body {
   left: 4%;
 }
 
-}
+
 
 
 /*-----------------*/
@@ -926,7 +1027,7 @@ body {
   height: 85%;
 }
 
-/*-----------------*/
+/*-----------------*/  
 
 .playlist_flexbox__2 {
   height: 30vh;
@@ -956,3 +1057,17 @@ body {
 .playlist_flexbox__item4__2 {
   height: 85%;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
