@@ -561,8 +561,15 @@ html {
   font-family: 'Roboto', sans-serif;
   margin-left: 5vw;
   margin-right: 5vw;
+  opacity: 0.4;
+  transition: opacity 0.5s ease;
   }
 
+.flex-container:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+
+}
 
 .flex-container h2 {
   font-size: 60px;
@@ -575,10 +582,13 @@ html {
   line-height: 33px;
   margin-top: 1.5vh;
   text-align: left;
+  transition: color 0.5s ease;
+
 }
 
 .flex-container p:hover {
   color: #33cc66;
+  transition: color 0.5s ease;
 }
 
 .left-column {
@@ -598,7 +608,6 @@ html {
 .contact__class {
   margin-bottom: 100vh;
 }
-
 
 
 /*RESPONSIVE QUERYS*/
@@ -807,7 +816,7 @@ html {
 
 .footer__links {
   font-size: 10px;
-  margin-left: 8vw;
+  margin-left: 12vw;
 }
 
 
