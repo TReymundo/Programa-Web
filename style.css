@@ -61,7 +61,7 @@ header {
 
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, black, rgb(27, 27, 27), black);;
   margin: 0;
   padding: 0;
 }
@@ -95,7 +95,7 @@ body {
   font-size: 115px;
   letter-spacing: 8px;
   font-weight: 100;
-  text-shadow: 1px 1px 100px #ffffff42;;
+  text-shadow: 1px 1px 100px #ffffff42;
 }
 
 
@@ -565,6 +565,7 @@ html {
   transition: opacity 0.5s ease;
   }
 
+
 .flex-container:hover {
   opacity: 1;
   transition: opacity 0.5s ease;
@@ -606,9 +607,67 @@ html {
 /* CONTACT */
 
 .contact__class {
-  margin-bottom: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000042;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgb(15, 15, 15), rgb(32, 32, 32), black);
 }
 
+
+form{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  transition: border 0.5s ease;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 29, 29), black);
+}
+
+form:hover {
+  transition: border 0.5s ease;
+  border: 2px solid #33cc66;
+}
+
+form h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background: #fdfdfd;
+  font-size: 16px;
+  
+}
+
+form button{
+  padding: 15px;
+  background: #249249;
+  color: #000000;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 20px;
+}
+
+form button:hover {
+  transition: background 0.5s ease;
+  background: #33cc66;
+}
 
 /*RESPONSIVE QUERYS*/
 
