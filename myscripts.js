@@ -1,4 +1,4 @@
-//Plays the audio when hovering over playlists
+//Plays the audio when hovering over playlists (Must click on page anywhere atleast once)
 
 document.addEventListener('DOMContentLoaded', () => {
   let moreElements = document.querySelectorAll('.more');
