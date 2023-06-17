@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 100);
     });
 
-    enterAudio.play(); // Trigger playback on page load
-    enterAudio.pause(); // Pause immediately after triggering to avoid playing the audio continuously
+    enterAudio.play(); 
+    enterAudio.pause(); 
   });
 });
