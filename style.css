@@ -1363,6 +1363,7 @@ html {
 
 .playlist_flexbox__2 img {
   width: 100%;
+  border: 3px solid #33cc66;
 }
 
 
