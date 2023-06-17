@@ -913,8 +913,12 @@ html {
 .footer {
   background-color: #181818;
   border-top: 1px solid white;
-}
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
 
+}
 
 
 .footer__logo img {
@@ -1062,8 +1066,7 @@ html {
 .about_us_subtext{
   font-size: 10px;
   margin-bottom: 35vh;
-  width: 320px;
-  margin-left: 6vw;
+  margin-top: 1vh;
   letter-spacing: 3px;
   line-height: 22px;
 }
@@ -1411,6 +1414,14 @@ html {
 }
 
 
+.footer__social img {
+  height: 40px;
+  width: 40px;
+  transition: background-color 1s ease, border-radius 1s ease;
+  margin-top: -2vh;
+} 
+
+
 .footer__links {
   font-size: 15px;
   margin-left: 3vw;
@@ -1422,15 +1433,30 @@ html {
 }
 
 
+/*-----------------*/
+
+
+/* ABOUT US */
+
+
 .about_us_soon {
   margin-top: 29vh;
 }
+
+/*-----------------*/
+
+
+/* BETWEEN TEXT */
 
 
 .between_text {
   font-size: 35px;
 }
 
+/*-----------------*/
+
+
+/* CONTACT */
 
 .contact__class {
   height: 110vh;
