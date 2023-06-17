@@ -914,10 +914,9 @@ html {
   background-color: #181818;
   border-top: 1px solid white;
   bottom: 0;
-  position: fixed;
   left: 0;
   width: 100%;
-
+  
 }
 
 
@@ -1058,14 +1057,13 @@ html {
 
 .about_us_soon {
   font-size: 35px;
-  margin-top: 20vh;
   margin-top: 28vh;
 }
 
 
 .about_us_subtext{
   font-size: 10px;
-  margin-bottom: 35vh;
+  margin-bottom: 100%;
   margin-top: 1vh;
   letter-spacing: 3px;
   line-height: 22px;
