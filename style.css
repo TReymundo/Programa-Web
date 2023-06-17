@@ -624,10 +624,10 @@ form{
   padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
-  border-radius: 8px;
+  border-radius: 14px;
   border: 2px solid #ffffff;
   transition: border 0.5s ease;
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 29, 29), black);
+  background-image: linear-gradient(to bottom, rgb(12, 12, 12), rgb(24, 24, 24), rgb(12, 12, 12));
 }
 
 form:hover {
@@ -646,8 +646,17 @@ form input, form textarea{
   margin: 10px 0px;
   padding: 20px;
   outline: none;
-  background: #fdfdfd;
+  background: transparent;
   font-size: 16px;
+  border-radius: 10px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+#name::placeholder, #email::placeholder, #phone::placeholder, #message::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
   
 }
 

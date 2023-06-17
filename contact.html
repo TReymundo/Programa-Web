@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+    
 </head>
 
 <body>
-    <script src="myscripts.js"></script>
+    
     <header>
         <nav class="nav">
             <ul class="nav__ul">
@@ -44,12 +46,12 @@
 
     <div class="contact__class">
         <form>
-            <h3>Contact<span style="color:#33cc66; text-shadow: 1px 1px 20px #33cc66;"> Us</span></h3>
+            <h3>Contact<span style="color:#33cc66; text-shadow: 1px 1px 10px #33cc66;"> Us</span></h3>
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Email" required>
-            <input type="email" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
             <textarea id="message" rows="4" placeholder="Insert comment"></textarea>
-            <button type="submit"> Send </button>
+            <button id="button" type="submit"> Send </button>
         </form>
     </div>
 
@@ -74,6 +76,7 @@
             </div>
         </div>
     </footer>
+
 
 </body>
 
