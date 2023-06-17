@@ -751,6 +751,7 @@ html {
   .nav_responsive_li a:hover {
     background-color: #33cc66; 
     transition: background-color 0.3s ease-out;
+    border-radius: 2px;
 }
   
 
